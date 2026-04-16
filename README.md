@@ -45,7 +45,7 @@ Set:
 ### Run the Demo API
 
 ```powershell
-cd "c:\Users\NHerrmann\Downloads\New folder\OAuthTokenManager"
+# From the repository root
 dotnet run --project src/OAuthTokenManager.DemoApi
 ```
 
@@ -82,7 +82,7 @@ curl -X POST http://localhost:5151/token/invalidate
 ## Test
 
 ```powershell
-cd "c:\Users\NHerrmann\Downloads\New folder\OAuthTokenManager"
+# From the repository root
 dotnet test OAuthTokenManager.sln
 ```
 
